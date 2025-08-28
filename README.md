@@ -23,18 +23,6 @@ This project is built upon the robust [T3 Stack](https://create.t3.gg/) and leve
 -   [Bun](https://bun.sh/): A fast all-in-one JavaScript runtime, bundler, transpiler, and package manager.
 -   [@tanstack/react-query](https://tanstack.com/query/latest): Powerful asynchronous state management for React, used by tRPC for data fetching.
 
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
 
 ## Getting Started
 
@@ -62,13 +50,7 @@ Make sure you have the following installed:
 
 ### Environment Variables
 
-Create a `.env` file in the root of the project by copying the `.env.example` file:
-
-```bash
-cp .env.example .env
-```
-
-Fill in the following environment variables in your newly created `.env` file:
+Fill in the following environment variables in the  `.env` file:
 
 -   `DATABASE_URL`: Your PostgreSQL connection string (e.g., `postgresql://user:password@localhost:5432/mydatabase`)
 -   `AUTH_SECRET`: A long, random string used to sign the session cookie. You can generate one with `openssl rand -base64 32`.
