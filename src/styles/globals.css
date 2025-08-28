@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+	--font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 1s;
+}
